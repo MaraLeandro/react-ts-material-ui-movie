@@ -1,5 +1,5 @@
 // prettier-ignore
-import { Checkbox, IconButton, Paper, Table, TableBody, TableCell, TableHead, TableRow } from "@material-ui/core"
+import { IconButton, Paper, Table, TableBody, TableCell, TableHead, TableRow } from "@material-ui/core"
 import DeleteIcon from "@material-ui/icons/Delete"
 import { makeStyles } from "@material-ui/styles"
 import * as React from "react"
@@ -27,7 +27,6 @@ export function TodoTable() {
 			<Table className={classes.table}>
 				<TableHead>
 					<TableRow>
-						<TableCell padding="default">Completed</TableCell>
 						<TableCell padding="default">Título</TableCell>
 						<TableCell padding="default">Año</TableCell>
 						<TableCell padding="default">Director</TableCell>
@@ -41,12 +40,9 @@ export function TodoTable() {
 							hover
 							onClick={event => onRowClick(n)}
 						>
-							<TableCell padding="none">
-								<Checkbox checked={n.completed} />
-							</TableCell>
-							<TableCell padding="none">{n.item.title}</TableCell>
-							<TableCell padding="none">{n.item.released}</TableCell>
-							<TableCell padding="none">{n.item.director}</TableCell>
+							<TableCell padding="default">{n.item.title}</TableCell>
+							<TableCell padding="default">{n.item.released}</TableCell>
+							<TableCell padding="default">{n.item.director}</TableCell>
 							<TableCell padding="none">
 								<IconButton
 									aria-label="Eliminar"
