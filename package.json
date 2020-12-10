@@ -1,5 +1,5 @@
 {
-	"name": "cra-typescript-material-ui",
+	"name": "cra-typescript-redux-material-ui",
 	"version": "1.0.0",
 	"dependencies": {
 		"@date-io/date-fns": "^1.3.13",
