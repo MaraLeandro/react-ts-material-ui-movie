@@ -70,22 +70,3 @@ registerServiceWorker();
        "source.organizeImports": true // optional
    },
 ```
-
-## Enable project snippets [OPTIONAL]
-
-Just install following extension:
-
-<img width="70%" src="vscode_snippet0.png" alt="Project Snippet"/>
-
-After that you can start to type `fcomp` (_for function component_) and you get a template for a new component.
-
-<img width="70%" src="vscode_snippet1.png" alt="Project Snippet"/>
-<img width="70%" src="vscode_snippet2.png" alt="Project Snippet"/>
-
-## The idea behind the example
-
-This example demonstrate how you can use [Create React App](https://github.com/facebookincubator/create-react-app) with [TypeScript](https://github.com/Microsoft/TypeScript).
-
-## Contributors
-
-Powered by [innFactory](https://innfactory.de/)
