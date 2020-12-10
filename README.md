@@ -1,4 +1,4 @@
-# Create React App example with Material-UI, TypeScript, Redux and Routing
+# Create React App Todo example with Material-UI, TypeScript, Redux and Routing
 
 This is a new version with React Hooks, Material-UI 4 and React-Redux 7 (with hooks!). We use this template for all our new projects. If you want to bootstrap a project with the classic approach without hooks but with class components, you are welcome to use the [previous version](https://github.com/innFactory/create-react-app-material-typescript-redux/tree/v1).
 
@@ -87,7 +87,5 @@ After that you can start to type `fcomp` (_for function component_) and you get 
 This example demonstrate how you can use [Create React App](https://github.com/facebookincubator/create-react-app) with [TypeScript](https://github.com/Microsoft/TypeScript).
 
 ## Contributors
-
--   [Anton Spöck](https://github.com/spoeck)
 
 Powered by [innFactory](https://innfactory.de/)
